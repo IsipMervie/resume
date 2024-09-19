@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6f9; /* Soft light gray */
+  margin: 0;
+  padding: 0;
+}
+
+.resume-container {
+  width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff; /* Clean white */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #6c9ecf; /* Soft blue */
+  color: white;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.header .title {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.left-column {
+  width: 35%;
+}
+
+.right-column {
+  width: 60%;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  border-bottom: 2px solid #9ab3d8; /* Light blue */
+  margin-bottom: 10px;
+  color: #333;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border: 5px solid #6c9ecf; /* Matching header color */
+}
+
+.contact-section, .education-section, .skills-section {
+  margin-bottom: 20px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #6c9ecf; /* Matching header color */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Updated section colors */
+.contact-section {
+  background-color: #e9f5fc; /* Very light blue */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.education-section {
+  background-color: #f3f9f6; /* Very light green */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.skills-section {
+  background-color: #fef8f4; /* Very light peach */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Adding some creative touches */
+h2 {
+  color: #6c9ecf; /* Soft blue for headings */
+}
+
+.profile-picture {
+  border: 5px solid #6c9ecf; /* Soft blue border for profile picture */
+}
